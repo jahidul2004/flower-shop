@@ -11,7 +11,7 @@
 
 .banner {
     width: 100%;
-    height: 638px;
+    max-height: 638px;
     background-color: #e554731a;
     display: flex;
     justify-content: space-evenly;
@@ -19,13 +19,13 @@
 }
 
 .banner .banner-info {
-    width: 530px;
-    height: 380px;
+    max-width: 530px;
+    max-height: 380px;
 }
 
 .banner .banner-image {
-    width: 476px;
-    height: 600px;
+    max-width: 476px;
+    max-height: 600px;
 }
 
 .banner .banner-info .banner-title {
@@ -63,10 +63,102 @@
     font-weight: 700;
 }
 
-
-.banner .banner-image img{
+.banner .banner-image img {
     width: 100%;
     height: 100%;
-
 }
 /* Banner section end */
+
+/* Featured flower section start */
+
+.featured-flower {
+    width: 80%;
+    max-height: 588px;
+    margin: 0 auto;
+    margin-top: 134px;
+}
+
+.featured-flower .featured-info {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.featured-flower .featured-info .featured-title {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.featured-flower .featured-info .featured-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.featured-flower .featured-image {
+    width: 100%;
+    height: 454px;
+}
+
+.featured-flower .image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.featured-flower .image-container .img-1,
+.img-2,
+.img-3 {
+    width: 30%;
+    height: 100%;
+}
+
+.featured-flower .image-container .image {
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+    height: 90%;
+}
+
+.featured-flower .image-container .img-1 .image {
+    background-color: #a7216226;
+}
+
+.featured-flower .image-container .img-2 .image {
+    background-color: #0597a026;
+}
+
+.featured-flower .image-container .img-3 .image {
+    background-color: #477d1126;
+}
+
+.featured-flower .image-container .text {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-flower .image-container .text p {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.featured-flower .image-container img {
+    width: 80%;
+    height: 80%;
+    margin-top: 24%;
+}
+
+/* Featured flower section end*/
