@@ -162,3 +162,26 @@
 }
 
 /* Featured flower section end*/
+
+/* Services section start */
+.services {
+    width: 80%;
+    height: 240px;
+    background-color: #2727270d;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.services .supports .support-title {
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Services section end */
