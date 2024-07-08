@@ -293,3 +293,71 @@
 }
 
 /* Instagram section end */
+
+/* Newsletter section start */
+
+.newsletter {
+    width: 80%;
+    height: 336px;
+    background-image: url("../assets/images/newsletter-bg.png");
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .newsletter-title {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.newsletter .newsletter-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.newsletter .input-area {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input[type="email"] {
+    width: 50%;
+    height: 48px;
+
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    margin-right: 6px;
+}
+
+.newsletter input[type="submit"] {
+    width: 10%;
+    height: 48px;
+    border: none;
+    background-color: #e55473;
+    color: #ffffff;
+    border-radius: 8px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Newsletter section end */
